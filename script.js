@@ -76,3 +76,51 @@ console.log(endereco)
 //null
 let cidade = null
 console.log(cidade)
+
+/*
+OPERADORES
+
+adição: +
+subtração: -
+mutiplicação: *
+divisão: /
+incremento: ++
+decremento: --
+*/
+
+//adição: +
+let a = 19
+let b = 5
+let c = a + b
+console.log(`(+)Adição: ${a} + ${b} = ${c}`)
+//Nan = Not a number
+
+//subtração: -
+let d = 19
+let e = 5
+let f = a - b
+console.log(`(-)Subtração: ${d} - ${e} = ${f}`)
+
+//mutiplicação: *
+let g = 19
+let h = 5
+let i = a * b
+console.log(`(*)Mutiplicação: ${g} x ${h} = ${i}`)
+
+//divisão: /
+let j = 19
+let k = 5
+let l = a / b
+console.log(`(/)Divisão: ${j} / ${k} = ${l}`)
+
+//incremento: ++
+let m = 10
+m++
+console.log(m)
+
+//decremento: --
+let n = 10
+n--
+console.log(n)
+
+
