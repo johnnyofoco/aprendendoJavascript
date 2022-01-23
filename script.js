@@ -155,5 +155,95 @@ o +=1
 console.log(`(+=)atribuição: ${o} `)
 
 //Operadores comparativos
+/*
+ == igualdade de valores sem considerar o tipo
+ === igualdade valores e tipos
+ !== diferença
+ > maior que 
+ < menor que 
+*/
+
+
 console.log('')
 console.log('####### Operadores Comparativos #########')
+
+let p = 10
+let q = '10'
+console.log(`(==): ${p} == '${q}':' ${p == q}`)
+
+let r = 10
+let s = '10'
+console.log(`(===): ${r} === '${s}': ${r === s}`)
+
+let t = 10
+let u = '10'
+console.log(`(!=): ${t} != '${u}': ${t != u}`)
+
+let w = 10
+let y = '10'
+console.log(`(!==): ${t} !== '${u}': ${t !== u}`)
+
+let z = 20
+let za = '10'
+console.log(`(>=): ${z} >= '${za}': ${z >= za}`)
+
+let zb = 20
+let zc = '10'
+console.log(`(<=): ${zb} <= '${zc}': ${zb <= zc}`)
+
+//Condicionais
+/*
+  if
+  if else
+  else if
+*/
+
+console.log('')
+console.log('####### Condicionais #########')
+
+let idade2 = prompt('Digite a sua idade:')
+
+if (idade2 >= 18) {
+  console.log('Ok você é maior de idade')
+} else if (idade2 === 15) {
+  console.log('Você tem 15 anos')
+} else {
+  console.log('Você não pode acessar')
+}
+
+
+//Operadores lógicos
+/*
+
+*/
+
+console.log('')
+console.log('####### Operadores lógicos #########')
+
+let inputNota1 = prompt('Digite a primeira nota:')
+let inputNota2 = prompt('Digite a segunda nota:')
+
+let nota1 = parseInt(inputNota1)
+let nota2 = parseInt(inputNota2)
+
+let mediaMinima = 7
+
+let media = (nota1 + nota2) /2
+console.log(media)
+
+if (media >= mediaMinima) {
+  console.log('Ok, Você foi aprovado')
+} else if (media <= mediaMinima) {
+  console.log('Infelizmente você foi reprovado')
+}
+
+if (media >= mediaMinima && media === 10) {
+  console.log('Parabéns, você foi muito bem!')
+} else if (media >= mediaMinima && media === 9) {
+  console.log('ok, da pra melhorar!')
+}
+
+console.log('')
+console.log('####### Switch #########')
+
+
