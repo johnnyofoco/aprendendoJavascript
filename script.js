@@ -23,6 +23,7 @@ undefined
 null
 */
 
+console.log('############## String #############')
 
 //string
 let nome = 'Johnny' 
@@ -35,14 +36,23 @@ console.log(nome + ' ' + sobrenome)
 //string literal
 console.log(`${nome} ${sobrenome}`)
 
+console.log('')
+console.log('############## Number ##############')
+
 //number
 let idade = 35
 console.log(idade)
 console.log(idade + 10)
 
+console.log('')
+console.log('############## Float ################')
+
 //float
 let porcentagem = 10.2
 console.log(porcentagem + '%')
+
+console.log('')
+console.log('############## Boolean ##############')
 
 //boolean (true or false)
 let maiorDeIdade = true
@@ -51,11 +61,17 @@ console.log(maiorDeIdade)
 let menorDeIdade = false
 console.log(menorDeIdade)
 
+console.log('')
+console.log('############## Array ################')
+
 //array
 let habilidades = ['HTML5', 'CSS3', 'SASS', 'javaScript']
 console.log(habilidades)
 console.log('Tamanho do array: ' + habilidades.length)
 console.log('Item da posição 0 do array é: ' + habilidades[0])
+
+console.log('')
+console.log('############## Object ################')
 
 //object
 let pessoa = {
@@ -68,10 +84,15 @@ console.log(pessoa)
 
 //JSON (JAVASCRIPT OBJECT NOTATION)
 
+console.log('')
+console.log('############## Undefined ##############')
+
 //undefined
 let endereco
 console.log(endereco)
 
+console.log('')
+console.log('############## Null ###################')
 
 //null
 let cidade = null
@@ -87,6 +108,9 @@ divisão: /
 incremento: ++
 decremento: --
 */
+
+console.log('')
+console.log('############## Operadores ##############')
 
 //adição: +
 let a = 19
@@ -116,11 +140,20 @@ console.log(`(/)Divisão: ${j} / ${k} = ${l}`)
 //incremento: ++
 let m = 10
 m++
-console.log(m)
+console.log(`(++)Incremento: ${m}`)
 
 //decremento: --
 let n = 10
 n--
-console.log(n)
+console.log(`(--)Incremento: ${n}`)
 
+//atribuição
 
+let o = 1
+o = o + 1
+o +=1
+console.log(`(+=)atribuição: ${o} `)
+
+//Operadores comparativos
+console.log('')
+console.log('####### Operadores Comparativos #########')
