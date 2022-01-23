@@ -1,0 +1,57 @@
+/*VARIABLES*/
+:root{
+  --color-primary: #0B0326;
+  --color-text: #E3C17D;
+  --color-tertiary: #582A72;
+}
+
+
+/*GLOBAL*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  background-color: var(--color-primary);
+}
+
+h1{
+  text-align: center;
+  margin: 100px 0;
+  color: var(--color-text);
+}
+
+h2{
+  text-align: center;
+  padding: 10px;
+  color: var(--color-text);
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+}
+
+/*DIV LAMPADA*/
+.box-test{
+  border: 5px solid var(--color-tertiary);
+  text-align: center;
+  padding: 30px;
+  margin: 0 10px;
+}
+
+.box-test button{
+  color: var(--color-text);
+  width: 100px;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 8px;
+  background-color: var(--color-tertiary);
+}
+
+.box-test button:hover{
+  cursor: pointer;
+  background-color: var(--color-text);
+  color: var(--color-tertiary);
+}

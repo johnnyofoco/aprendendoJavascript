@@ -1,26 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
+
+  <link rel="stylesheet" href="style.css">
   <title>javaScript</title>
 </head>
+
 <body>
-  <h1 id="titulo">Título de exemplo</h1>
+  <h1>Testes com javaScript</h1>
+  <div class="container">
 
-  <script>
-    //alert('Hello World!')
-    
-    //console.log('Hello World!')
-    //console.error('ixi deu erro!')
+    <div class="box-test">
+      <h2>Lampada com javaScript</h2>
+      <button onclick="document.querySelector('#lampada').src='img/lampada_ligada.gif'">Acender</button>
+      <img id="lampada" src="img/lampada_desligada.gif" alt="lampada desligada">
+      <button onclick="document.querySelector('#lampada').src='img/lampada_desligada.gif'">Apagar</button>
+    </div>
 
-    //document.write('Hello World!')
+    <div class="box-test">
+      <h2>Outro teste</h2>
+    </div>
 
-    document.querySelector('#titulo').innerHTML =  'Título principal alterado!'
+  </div>
+  <!--container-->
 
-    
-  </script>
+  <script src="script.js"></script>
 </body>
+
 </html>
