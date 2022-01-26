@@ -6,9 +6,58 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ex006</title>
+
+  <style>
+    body{
+      background-color: rgb(181, 181, 211);
+    }
+
+    .container{
+      display: flex;
+      justify-content: space-around;
+      margin-top: 50px;
+      width: calc(100vw - 8px);
+    }
+
+    .box{
+      background-color: #b4b2b273;
+      width: 30%;
+      padding: 30px;
+      border-radius: 5px;
+      box-shadow: 5px 3px 4px 1px #000000bd;
+    }
+
+    .box:hover{
+      background-color: #66626273;
+      cursor: pointer;
+    }
+
+    h1{
+      font-size: 40px;
+      font-weight: bold;
+    }
+
+    p{
+      font-size: 26px;
+    }
+
+    @media (max-width: 1200px){
+      .container{
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .box{
+        margin-top: 20px;
+      }
+    }
+
+  </style>
 </head>
 
 <body>
+  <div class="container">
+  </div>
 
   <script src="script.js"></script>
 </body>
